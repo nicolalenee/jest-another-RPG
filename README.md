@@ -9,6 +9,10 @@ To initialize the app users need have Node.Js installed. To start the app run th
 * JavaScript
 * Node.Js
 * inquirer
+* jest
+
+## Testing
+Each object was tested using the jest framework. To run the tests, use the `npm run test` command. 
 
 ## Usage
 After the app has been initialized, the user will be greeted with a prompt asking for their name. The game will then display the user's stats before the first battle. The user and their current enemy will take turns sparring back and forth. After each turn, the user has the option to use a potion to upgrade their health, agility, or strength. The game will inform the user of the enemy's health and the user's health after each turn. The user will continue to battle with enemies until they have won the game or have been defeated.
