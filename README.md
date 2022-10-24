@@ -5,6 +5,11 @@ This fun command-line game invites the user to a world of fighting, orcs, and ma
 ## Installation / Requirements
 To initialize the app users need have Node.Js installed. To start the app run the `node app.js` command. 
 
+## Technology
+* JavaScript
+* Node.Js
+* inquirer
+
 ## Usage
 After the app has been initialized, the user will be greeted with a prompt asking for their name. The game will then display the user's stats before the first battle. The user and their current enemy will take turns sparring back and forth. After each turn, the user has the option to use a potion to upgrade their health, agility, or strength. The game will inform the user of the enemy's health and the user's health after each turn. The user will continue to battle with enemies until they have won the game or have been defeated.
 
